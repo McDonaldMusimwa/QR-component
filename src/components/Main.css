@@ -1,0 +1,53 @@
+.OutLine {
+    background-color: white;
+    width: 19.5vw;
+    height: 62vh;
+    margin-left: 37rem;
+    margin-top: 0rem;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+ 
+    
+}
+
+.OutLine>img {
+    width: 16.8rem;
+    height: 17rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    border-radius: 12px;
+}
+
+.text {
+    margin-top: 2rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.text2{
+    margin-top: 1rem;
+    font-weight:lighter;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .OutLine{
+        margin-left: 1rem;
+        margin-top: 1rem;
+        width: 80vw;
+        height: 90vh;
+    }
+    .OutLine>img{
+        width: 14rem;
+        height: 15rem;
+
+
+    }
+  
+  
+}
